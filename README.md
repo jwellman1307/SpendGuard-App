@@ -130,53 +130,80 @@ SafeSpend V1 was tested for:
 
 ## Screenshots
 
-### Dashboard
-![Dashboard](Screenshots/Dashboard.png)
-
-### Income Screen
-![Income Screen](Screenshots/IncomeScreen.png)
-
-### Bills Screen
-![Bills Screen](Screenshots/BillScreen.png)
-
-### Add Income
-![Add Income](Screenshots/AddIncome.png)
-
-### Add Bill
-![Add Bill](Screenshots/AddBill.png)
-
-### Update Cash Available
-![Update Cash Available](Screenshots/UpdateCash.png)
+<table>
+  <tr>
+    <td align="center">
+      <strong>Dashboard</strong><br>
+      <img src="Screenshots/Dashboard.png" width="250">
+    </td>
+    <td align="center">
+      <strong>Income Screen</strong><br>
+      <img src="Screenshots/IncomeScreen.png" width="250">
+    </td>
+    <td align="center">
+      <strong>Bills Screen</strong><br>
+      <img src="Screenshots/BillScreen.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Add Income</strong><br>
+      <img src="Screenshots/AddIncome.png" width="250">
+    </td>
+    <td align="center">
+      <strong>Add Bill</strong><br>
+      <img src="Screenshots/AddBill.png" width="250">
+    </td>
+    <td align="center">
+      <strong>Update Cash Available</strong><br>
+      <img src="Screenshots/UpdateCash.png" width="250">
+    </td>
+  </tr>
+</table>
 
 ---
 ## Development Progress
 
 SafeSpend was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, paid bill logic, dashboard calculations, AdMob integration, privacy policy setup, and release build preparation.
 
-### Early Dashboard Prototype
-![Early Dashboard Prototype](Development%20Progress/01-dashboard-prototype.png)
-
-### Dashboard Card Iteration
-![Dashboard Card Iteration](Development%20Progress/02-dashboard-card-iteration.png)
-
-### Income Card Iteration
-![Income Card Iteration](Development%20Progress/03-income-card-iteration.png)
-
-### Date Picker Added
-![Date Picker Added](Development%20Progress/09-date-picker-added.png)
-
-### Date Validation Error
-![Date Validation Error](Development%20Progress/11-data-validation-error.png)
-
-### Overdue Bill Logic
-![Overdue Bill Logic](Development%20Progress/14-overdue-bill.png)
-
-### AdMob Test Integration
-![AdMob Test Integration](Development%20Progress/15-ad-testing.png)
-## Notes
-
-This repository is currently being used as a public project showcase for SafeSpend.  
-The full production source code is not included in this public repository.
+<table>
+  <tr>
+    <td align="center">
+      <strong>Early Dashboard Prototype</strong><br>
+      <img src="Development%20Progress/01-dashboard-prototype.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Dashboard Card Iteration</strong><br>
+      <img src="Development%20Progress/02-dashboard-card-iteration.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Income Card Iteration</strong><br>
+      <img src="Development%20Progress/03-income-card-iteration.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Date Picker Added</strong><br>
+      <img src="Development%20Progress/09-date-picker-added.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Date Validation Error</strong><br>
+      <img src="Development%20Progress/11-data-validation-error.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Overdue Bill Logic</strong><br>
+      <img src="Development%20Progress/14-overdue-bill.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>AdMob Test Integration</strong><br>
+      <img src="Development%20Progress/15-ad-testing.png" width="260">
+    </td>
+  </tr>
+</table>
 
 ---
 
