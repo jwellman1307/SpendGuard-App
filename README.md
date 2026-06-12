@@ -18,6 +18,11 @@ The app has completed core feature testing, release build preparation, AdMob int
 
 ---
 
+## Current Release Status
+
+SafeSpend V1 is built and prepared for Google Play submission. The app is currently waiting on Google Play Console developer identity verification before upload and review.
+
+---
 ## Features
 
 - Track current cash available
