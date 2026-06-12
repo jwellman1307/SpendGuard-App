@@ -130,17 +130,49 @@ SafeSpend V1 was tested for:
 
 ## Screenshots
 
-Screenshots will be added to show:
+### Dashboard
+![Dashboard](Screenshots/Dashboard.png)
 
-- Dashboard
-- Income screen
-- Bills screen
-- Add Income screen
-- Add Bill screen
-- Update Cash Available screen
+### Income Screen
+![Income Screen](Screenshots/IncomeScreen.png)
+
+### Bills Screen
+![Bills Screen](Screenshots/BillScreen.png)
+
+### Add Income
+![Add Income](Screenshots/AddIncome.png)
+
+### Add Bill
+![Add Bill](Screenshots/AddBill.png)
+
+### Update Cash Available
+![Update Cash Available](Screenshots/UpdateCash.png)
 
 ---
+## Development Progress
 
+SafeSpend was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, paid bill logic, dashboard calculations, AdMob integration, privacy policy setup, and release build preparation.
+
+### Early Dashboard Prototype
+![Early Dashboard Prototype](Development%20Progress/01-dashboard-prototype.png)
+
+### Dashboard Card Iteration
+![Dashboard Card Iteration](Development%20Progress/02-dashboard-card-iteration.png)
+
+### Income Card Iteration
+![Income Card Iteration](Development%20Progress/03-income-card-iteration.png)
+
+### Date Picker Added
+![Date Picker Added](Development%20Progress/09-date-picker-added.png)
+
+### Date Validation Error
+![Date Validation Error](Development%20Progress/11-data-validation-error.png)
+
+### Overdue Bill Logic
+![Overdue Bill Logic](Development%20Progress/14-overdue-bill.png)
+
+### AdMob Test Integration
+![AdMob Test Integration](Development%20Progress/15-ad-testing.png)
 ## Notes
 
 This repository is currently being used as a public project showcase for SafeSpend.  
