@@ -39,6 +39,7 @@ Testing track: **Closed testing - Alpha**
 - Mark bills as paid
 - View available money per day
 - Edit or delete income sources and bills
+- Update available cash quickly
 - Local storage with no account required
 - Simple dashboard-first design
 - Banner ad support through Google AdMob
@@ -60,6 +61,12 @@ SpendGuard includes the following main screens:
 
 - **Update Cash Available**  
   Lets users quickly update how much money they currently have available.
+
+- **Edit Income**  
+  Allows users to update an existing income source.
+
+- **Edit Bill**  
+  Allows users to update an existing bill.
 
 ---
 
@@ -147,29 +154,46 @@ SpendGuard V1 was tested for:
   <tr>
     <td align="center">
       <strong>Dashboard</strong><br>
-      <img src="Screenshots/Dashboard.png" width="250">
+      <img src="Screenshots/01-Dashboard-7.png" width="250">
     </td>
     <td align="center">
-      <strong>Income Screen</strong><br>
-      <img src="Screenshots/IncomeScreen.png" width="250">
+      <strong>Income</strong><br>
+      <img src="Screenshots/02-Income-7.png" width="250">
     </td>
     <td align="center">
-      <strong>Bills Screen</strong><br>
-      <img src="Screenshots/BillScreen.png" width="250">
+      <strong>Bills</strong><br>
+      <img src="Screenshots/03-Bills-7.png" width="250">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <strong>Add Income</strong><br>
-      <img src="Screenshots/AddIncome.png" width="250">
-    </td>
-    <td align="center">
-      <strong>Add Bill</strong><br>
-      <img src="Screenshots/AddBill.png" width="250">
-    </td>
-    <td align="center">
       <strong>Update Cash Available</strong><br>
-      <img src="Screenshots/UpdateCash.png" width="250">
+      <img src="Screenshots/04-UpdateCash-7.png" width="250">
+    </td>
+    <td align="center">
+      <strong>Edit Income</strong><br>
+      <img src="Screenshots/05-EditIncome-7.png" width="250">
+    </td>
+    <td align="center">
+      <strong>Edit Bill</strong><br>
+      <img src="Screenshots/06-EditBill-7.png" width="250">
+    </td>
+  </tr>
+</table>
+
+---
+
+## App Graphics
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>App Logo</strong><br>
+      <img src="Screenshots/SpendGuardLogo.png" width="200">
+    </td>
+    <td align="center">
+      <strong>Feature Graphic</strong><br>
+      <img src="Screenshots/SpendGuardFeatureGraphicLogo.png" width="400">
     </td>
   </tr>
 </table>
@@ -197,14 +221,54 @@ SpendGuard was built through multiple design and testing iterations. The app sta
       <img src="Development%20Progress/03-income-card-iteration.png" width="260">
     </td>
     <td align="center">
+      <strong>Income and Bill Form Iteration</strong><br>
+      <img src="Development%20Progress/04-income-add-bill.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Primary Income Logic</strong><br>
+      <img src="Development%20Progress/05-income-primary.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Income Delete Flow</strong><br>
+      <img src="Development%20Progress/06-income-delete.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Bills Card Iteration</strong><br>
+      <img src="Development%20Progress/07-bills-card.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Bills Delete Flow</strong><br>
+      <img src="Development%20Progress/08-bills-delete.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <strong>Date Picker Added</strong><br>
       <img src="Development%20Progress/09-date-picker-added.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Add Income Flow</strong><br>
+      <img src="Development%20Progress/10-add-income.png" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <strong>Date Validation Error</strong><br>
       <img src="Development%20Progress/11-data-validation-error.png" width="260">
+    </td>
+    <td align="center">
+      <strong>Edit Bill Flow</strong><br>
+      <img src="Development%20Progress/12-edit-bill.png" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Add Bill Flow</strong><br>
+      <img src="Development%20Progress/13-add-bill.png" width="260">
     </td>
     <td align="center">
       <strong>Overdue Bill Logic</strong><br>
@@ -216,8 +280,29 @@ SpendGuard was built through multiple design and testing iterations. The app sta
       <strong>AdMob Test Integration</strong><br>
       <img src="Development%20Progress/15-ad-testing.png" width="260">
     </td>
+    <td align="center">
+      <strong>SpendGuard Rebrand</strong><br>
+      <img src="Development%20Progress/16-Rebrand.png" width="260">
+    </td>
   </tr>
 </table>
+
+---
+
+## Development Summary
+
+SpendGuard was created as a practical Android app focused on solving a simple budgeting problem. The first version went through multiple rounds of layout changes, naming changes, testing, and release preparation before being uploaded to Google Play closed testing.
+
+The project includes:
+
+- A full Android app built with Kotlin and Jetpack Compose
+- Local data storage
+- Income and bill management
+- Pay-period based dashboard calculations
+- Paid and overdue bill handling
+- AdMob banner support
+- Privacy policy setup
+- Google Play closed testing release
 
 ---
 
