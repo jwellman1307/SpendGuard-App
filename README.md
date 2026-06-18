@@ -1,28 +1,33 @@
-# SafeSpend
+# SpendGuard
 
-SafeSpend is a paycheck-focused Android budgeting app designed to help users quickly understand how much money they have available until their next payday.
+SpendGuard is a paycheck-focused Android budgeting app designed to help users quickly understand how much money they have available until their next payday.
 
-The app focuses on a simple question:
+The app focuses on one simple question:
 
 > How much can I safely spend before my next paycheck?
 
-SafeSpend helps users track available cash, income sources, upcoming bills, and bills due before the next pay period. It is designed to be simple, readable, and useful for people who want a clear picture of their money without complicated budgeting tools or required logins.
+SpendGuard helps users track available cash, income sources, upcoming bills, and bills due before the next pay period. It is designed to be simple, readable, and useful for people who want a clear picture of their money without complicated budgeting tools or required logins.
 
 ---
 
 ## Project Status
 
-SafeSpend V1 is currently prepared for Google Play release.
+SpendGuard V1 is currently in Google Play closed testing.
 
-The app has completed core feature testing, release build preparation, AdMob integration, privacy policy setup, and Google Play Console setup preparation.
+The app has completed core feature testing, release build preparation, AdMob integration, privacy policy setup, Google Play Console setup, and closed testing release preparation.
 
 ---
 
 ## Current Release Status
 
-SafeSpend V1 is built and prepared for Google Play submission. The app is currently waiting on Google Play Console developer identity verification before upload and review.
+SpendGuard V1 has been uploaded to Google Play Console and released to closed testing.
+
+Current version: **1.0**  
+Current release code: **3**  
+Testing track: **Closed testing - Alpha**
 
 ---
+
 ## Features
 
 - Track current cash available
@@ -42,7 +47,7 @@ SafeSpend V1 is built and prepared for Google Play submission. The app is curren
 
 ## Screens
 
-SafeSpend includes the following main screens:
+SpendGuard includes the following main screens:
 
 - **Dashboard**  
   Shows amount available, per-day amount, days left, next payday, and bills due before the next paycheck.
@@ -71,7 +76,7 @@ SafeSpend includes the following main screens:
 
 ## Design Goals
 
-SafeSpend was built with a focus on:
+SpendGuard was built with a focus on:
 
 - Simplicity
 - Privacy
@@ -87,7 +92,7 @@ The goal was to create a budgeting tool for users who are focused on managing mo
 
 ## Privacy
 
-SafeSpend does not require an account or login.
+SpendGuard does not require an account or login.
 
 Budget information such as income, bills, due dates, and cash available is stored locally on the user's device.
 
@@ -98,7 +103,7 @@ https://sites.google.com/view/trs-safespend-privacy-policy
 
 ## Testing Completed
 
-SafeSpend V1 was tested for:
+SpendGuard V1 was tested for:
 
 - Fresh install behavior
 - App uninstall and reinstall
@@ -115,6 +120,7 @@ SafeSpend V1 was tested for:
 - Larger screen testing
 - AdMob banner integration
 - Release build generation
+- Closed testing upload process
 
 ---
 
@@ -130,6 +136,8 @@ SafeSpend V1 was tested for:
 - Signed Android App Bundle created
 - Release key created and backed up
 - Google Play Console account created
+- Closed testing release created
+- Tester access configured
 
 ---
 
@@ -167,9 +175,10 @@ SafeSpend V1 was tested for:
 </table>
 
 ---
+
 ## Development Progress
 
-SafeSpend was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, paid bill logic, dashboard calculations, AdMob integration, privacy policy setup, and release build preparation.
+SpendGuard was built through multiple design and testing iterations. The app started as a simple hardcoded dashboard and grew into a full local-storage Android budgeting app with income tracking, bill tracking, paid bill logic, dashboard calculations, AdMob integration, privacy policy setup, and release build preparation.
 
 <table>
   <tr>
